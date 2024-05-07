@@ -11,7 +11,7 @@ accountEmail = "yash@gmail.com"; // no Error because let Value can be change/upd
 
 accountPassword = "664485"; // no Error because var can be also updated or changed
 
-let novalue; // if variable have no value than it will be undefined
+let noValue; // if variable have no value than it will be undefined
 
 
 /*so if both var and let change its value than why we are using both ????
