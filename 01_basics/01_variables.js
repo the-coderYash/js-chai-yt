@@ -5,7 +5,7 @@ let accountEmail = "goku@mytrumail.com";
 var accountPassword = "12345678";
 accountCity = "Jaipur";
 
-// accountId = 2  //Error coz const can't change
+// accountId = 2  //Not Allowed / Error coz const can't change
 
 accountEmail = "yash@gmail.com"; // no Error because let Value can be change/update
 
@@ -19,6 +19,10 @@ because in early days js have no control on scopes(Scopes-{}) or was  unaware of
 something that use var as keyword than change occur everywhere in the file with 
           (var with same name e.g var a = 3, var a = 6 now new value of a is 6 )
                     to solve this problem js introduced let 
+
+Prefer not to use var
+because of issue in block scope and functional scope
+
 
 Note :-  Never ever use var, use let (- _|_ -)
 
