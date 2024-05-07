@@ -39,4 +39,4 @@ accountCity = "Bihar"; // No Error because it also use var/let, if no keyword is
 
 // console.log(accountCity)
 // we can use other method to print data like console.table([all variables name])
-console.table([accountId, accountEmail, accountPassword, accountCity, novalue]); //This will print data in Tabular Form
+console.table([accountId, accountEmail, accountPassword, accountCity, noValue]); //This will print data in Tabular Form
