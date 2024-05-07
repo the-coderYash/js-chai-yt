@@ -1,4 +1,4 @@
-let score = "goku"
+let score = "yash"
 
 console.log(typeof score);
 console.log(typeof (score));
@@ -27,3 +27,10 @@ console.log(booleanIsLoggedIn);
 // 0 => false
 //"" => false
 // "yash" => true
+
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
